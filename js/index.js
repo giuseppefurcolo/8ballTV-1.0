@@ -1,6 +1,6 @@
 //var linker = "./content/"; Change to content server URL
-
 var linker = "http://giuseppefurcolo.com/delivery/";
+
 function stripdate() {
     var d = new Date();
     var weekday = new Array(7);
