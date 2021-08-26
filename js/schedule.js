@@ -38,7 +38,6 @@ if(result == da){
 		window.ndo = "h"+ h +"_00"	
 	}else if (m >= 15 && m < 30) {
 			window.ndo = "h"+ h +"_15"
-		//document.getElementById(ndo).innerHTML = "zio";
 	}else if (m >= 30 && m < 45) {
 		window.ndo = "h"+ h +"_30"
 	} else if (m >= 45) {
@@ -101,14 +100,9 @@ function checkTime(i) {
 
 startTime();
 
-
-
 function checkday(z){
 
-
-
 var lookfor = theday + "s";
-
 
 document.getElementById(lookfor).className = "istoday";
 	
