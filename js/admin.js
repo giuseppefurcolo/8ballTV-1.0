@@ -15,7 +15,8 @@ document.getElementById("tot").innerHTML = cTot - saps;
 
 var duration = [];
 
-var linker = "./content/";
+//var linker = "./content/"; Change to content server URL
+var linker = "http://giuseppefurcolo.com/delivery/";
 
 listtext = "<ul>";
 for (k = 0; k < cTot; k++) {
