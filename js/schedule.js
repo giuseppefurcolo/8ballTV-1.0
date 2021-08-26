@@ -1,9 +1,5 @@
 function openWindowWithPost(when) {window.open(when, "_self")}
 
-//document.getElementById(modalbody).innerHTML=  "zio"  ;
-
-//console.log(document.getElementById("modalbody").innerHTML)
-
 var shallwe = false;
 var ndo = "dontknowyet";
 
@@ -152,52 +148,26 @@ document.getElementById(lookfor).className = "istoday";
 	document.getElementById(linet1).innerHTML = jolly1t;
 	
 
-	//document.getElementById(linet1).innerHTML=  "<a class='info' href='content/"+ info1t.replace("mp4","html")  +"'>"+jolly1t + "</a" ;
-	
-	
-	//copy = info1t.replace("mp4","html");
-	
-
 document.getElementById(linet1).innerHTML=  jolly1t  ;
 
-//document.getElementById("modalbody").innerHTML=  "zio"  ;
-
-	
-	
-//+ "<td class='info' onclick='alerter('00_00')'>INFO</td>"	
-	
-
-
-	
-
-	//document.getElementById(modaltitle).innerHTML=  zio ;
-	
-	//console.log(linet1);
-
-
-	
 	document.getElementById(linet2).innerHTML = jolly2t;
-	//document.getElementById(linet2).innerHTML = "<a class='info' href='content/"+ info2t[0]+".html'>"+jolly2t[1] + "</a" ;
 	
 	if(jolly2t == undefined){
 		document.getElementById(linet2).innerHTML = document.getElementById(linet1).innerHTML;
 	}else{
 		document.getElementById(linet2).innerHTML =  jolly2t ;	
-		//document.getElementById(linet2).innerHTML = "<a class='info' href='content/"+ info2t[0]+".html'>"+jolly2t[1] + "</a" ;	
 	};
 	
 	if(jolly3t == undefined){
 		document.getElementById(linet3).innerHTML = document.getElementById(linet2).innerHTML;
 	}else{
 		document.getElementById(linet3).innerHTML = jolly3t;	
-		//document.getElementById(linet3).innerHTML = "<a class='info' href='content/"+ info3t[0]+".html'>"+jolly3t[1] + "</a" ;	
 	};
 	
 	if(jolly4t == undefined){
 		document.getElementById(linet4).innerHTML = document.getElementById(linet3).innerHTML;
 	}else{
 		document.getElementById(linet4).innerHTML = jolly4t ;	
-		//document.getElementById(linet4).innerHTML = "<a class='info' href='content/"+ info4t[0]+".html'>"+jolly4t[1] + "</a" ;	
 	};
 	
 	if(window.shallwe){
