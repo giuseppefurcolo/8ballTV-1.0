@@ -74,7 +74,7 @@ var thu_12_q2 = protest_15;
 var thu_12_q3 = protest_15;
 var thu_12_q4 = protest_15;
 
-var thu_13_q1 = protest_15;
+var thu_13_q1 = giuseppe_15;
 var thu_13_q2 = protest_15;
 var thu_13_q3 = protest_15;
 var thu_13_q4 = protest_15;
